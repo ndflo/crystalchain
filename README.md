@@ -1,2 +1,0 @@
-# crystalchain
-crystalchain testing evaluation

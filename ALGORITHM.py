@@ -29,16 +29,20 @@ def entryTime(s, keypad):
         if current_location == keypad[0]:
             entry_time[1], entry_time[3], entry_time[4] = 1
             list_of_number_to_add.append[1]
+            continue
         else:
             entry_time[2], entry_time[5], entry_time[6], entry_time[7], entry_time[8] = 2
             list_of_number_to_add.append[2]
+            continue
 
         if current_location == keypad[1]:
             list_of_number_to_add.append[1]
             entry_time[0], entry_time[2], entry_time[3], entry_time[4], entry_time[5] = 1
+            continue
         else:
             entry_time[6], entry_time[7], entry_time[8] = 2
             list_of_number_to_add.append[2]
+            continue
         
     
         """
@@ -47,8 +51,10 @@ def entryTime(s, keypad):
         if current_location == keypad[3]:
             list_of_number_to_add.append[1]
             entry_time[0]
+            continue
         else:
-            entry_time[6], 
+            entry_time[6]
+            continue
         """
     
 
